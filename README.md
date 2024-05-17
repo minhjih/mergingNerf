@@ -17,3 +17,9 @@ We reduced not only input shape, but also model architectures because of complex
 
 ### Model Merging Method
 There are so many Model merging Method.
+1. 
+2. 
+3. 
+
+We applied all of the Model Merging Methods.
+
