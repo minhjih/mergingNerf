@@ -1,5 +1,4 @@
-# MeMo NF 
-Merge Model between Neural Field
+# MeMo NF (Merge Model between Neural Field)
 
 ## Preliminaries
 ### Neural Radiance Field (NeRF)
