@@ -18,9 +18,9 @@ We reduced not only input shape, but also model architectures because of complex
 
 ### Model Merging Method
 There are so many Model merging Method.
- 1. hello
- 2. hello2
- 3. hello3
+ 1. random mix model merging
+ 2. Fisher weighted mix parameter
+ 3. REPAIR
 
 We applied all of the Model Merging Methods.
 
