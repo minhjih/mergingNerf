@@ -18,8 +18,8 @@ We reduced not only input shape, but also model architectures because of complex
 
 ### Model Merging Method
 There are so many Model merging Method.
- 1. random mix model merging
- 2. Fisher weighted mix parameter
+ 1. permutation without activation matching
+ 2. activation matching considering permutation symmetry 
  3. REPAIR
 
 We applied all of the Model Merging Methods.
