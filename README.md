@@ -10,3 +10,10 @@ The Neural Radiance Fields (NeRF) model is a method for synthesizing novel views
 ### Tiny NeRF
 The difference between Tiny NeRF and NeRF is input shape and deepness of the model. In our case, we used 3D coordinates for model inputs dimesion reducted with encoding function. 
 We reduced not only input shape, but also model architectures because of complexity. 
+
+<p align="center">
+ <img src = "./image/tinynerf_architecture.png">
+</p>
+
+### Model Merging Method
+There are so many Model merging Method.
