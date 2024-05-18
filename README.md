@@ -36,4 +36,25 @@ Model1 Reconstruction & Model2 Reconstruction
 </p>
 
 Base on these models, we can adapt above 3 model merging techniques.
-Check codes if you want to know much deeper [[./code/Model_merge.ipynb]].
+Check codes if you want to know much deeper [./code/Model_merge.ipynb].
+
+### Permutation without activation matching
+Permutation without activation matching only consider correlation of latent vectors.
+
+<p align="center">
+ <video src="./image/merge2" width="240" height="240" controls></video>
+</p>
+
+### Permutation with Activation matching
+Permutation with Activation matching consider the activation functions also.
+
+<p align="center">
+ <video src="./image/merge1" width="240" height="240" controls></video>
+</p>
+
+### REPAIR
+REPAIR makes batch-normalization correct.
+
+<p align="center">
+ <video src="./image/merge3" width="240" height="240" controls></video>
+</p>
