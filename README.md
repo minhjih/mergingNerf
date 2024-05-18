@@ -43,7 +43,7 @@ We adapted 1. Permutation without activation matching, 2. Activation Matching co
 
 (You might know that REPAIR can be only adapted into Neural Net with Batch normalization, so we added batch normalization for REPAIR)
 <p align="center">
- <img src = "./image/merge_2.gif">
- <img src = "./image/merge_1.gif">
- <img src = "./image/merge_3.gif">
+ <img src = "./image/merge_2.gif" height = 200 width = 200 >
+ <img src = "./image/merge_1.gif" height = 200 width = 200>
+ <img src = "./image/merge_3.gif" height = 200 width = 200>
 </p>
