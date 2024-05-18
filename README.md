@@ -34,3 +34,6 @@ Model1 Reconstruction & Model2 Reconstruction
  <img src = "./image/model1and2.png">
  <img src = "./image/model1and2_2.png">
 </p>
+
+Base on these models, we can adapt above 3 model merging techniques.
+Check codes if you want to know much deeper [[./code/Model_merge.ipynb|Code]].
