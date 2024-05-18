@@ -32,4 +32,5 @@ Model1 Reconstruction & Model2 Reconstruction
 
 <p align="center">
  <img src = "./image/model1and2.png">
+ <img src = "./image/model1and2_2.png">
 </p>
