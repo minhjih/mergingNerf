@@ -42,19 +42,19 @@ Check codes if you want to know much deeper [./code/Model_merge.ipynb].
 Permutation without activation matching only consider correlation of latent vectors.
 
 <p align="center">
- <video src="./image/merge2" width="240" height="240" controls></video>
+ <video src="./image/merge_2.mp4" width="240" height="240" controls></video>
 </p>
 
 ### Permutation with Activation matching
 Permutation with Activation matching consider the activation functions also.
 
 <p align="center">
- <video src="./image/merge1" width="240" height="240" controls></video>
+ <video src="./image/merge_1.mp4" width="240" height="240" controls></video>
 </p>
 
 ### REPAIR
 REPAIR makes batch-normalization correct.
 
 <p align="center">
- <video src="./image/merge3" width="240" height="240" controls></video>
+ <video src="./image/merge_3.mp4" width="240" height="240" controls></video>
 </p>
