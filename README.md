@@ -36,7 +36,7 @@ Model1 Reconstruction & Model2 Reconstruction
 </p>
 
 Base on these models, we can adapt above 3 model merging techniques.
-Check codes if you want to know much deeper [./code/Model_merge.ipynb].
+Check codes if you want to know much deeper.
 
 ### Adapt Model merging.
 We adapted 1. Permutation without activation matching, 2. Activation Matching considering permutation symmetry, 3. REPAIR 
@@ -47,3 +47,12 @@ We adapted 1. Permutation without activation matching, 2. Activation Matching co
  <img src = "./image/merge_1.gif" height = 200 width = 200>
  <img src = "./image/merge_3.gif" height = 200 width = 200>
 </p>
+
+## Results
+Following to the above experimental results, we can know several things.
+
+1. Activation matching considering Permuytation Symmetry makes best results.
+2. REPAIR have the most clear color of the results.
+
+So, we can make a results as model merging methods interference the color informations while matching parameters. But, batch normalization is not suitable for Neural Field models. 
+
