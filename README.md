@@ -39,7 +39,7 @@ Base on these models, we can adapt above 3 model merging techniques.
 Check codes if you want to know much deeper [./code/Model_merge.ipynb].
 
 ### Adapt Model merging.
-We adapted 1. Permutation without activation matching, 2. Activation Matching considering permutation symmetry, 3. REPAIR
+We adapted 1. Permutation without activation matching, 2. Activation Matching considering permutation symmetry, 3. REPAIR \\
 (You might know that REPAIR can be only adapted into Neural Net with Batch normalization, so we added batch normalization for REPAIR)
 <p align="center">
  <img src = "./image/merge_2.gif">
