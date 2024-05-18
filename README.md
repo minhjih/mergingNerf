@@ -36,4 +36,4 @@ Model1 Reconstruction & Model2 Reconstruction
 </p>
 
 Base on these models, we can adapt above 3 model merging techniques.
-Check codes if you want to know much deeper [[./code/Model_merge.ipynb|Code]].
+Check codes if you want to know much deeper [[./code/Model_merge.ipynb]].
