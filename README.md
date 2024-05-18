@@ -22,5 +22,10 @@ There are so many Model merging Method.
  2. activation matching considering permutation symmetry 
  3. REPAIR
 
-We applied all of the Model Merging Methods.
+We applied all above of the Model Merging Methods.
+
+## Experiments
+First, we composed Neural Field Models with Tiny NeRF. 
+To merge two different model we gave another poses data to each models.
+(If there are Model1, Model2, then we used front poses dataset for train Model1 and rear poses datasets for Model2)
 
