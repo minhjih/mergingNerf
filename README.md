@@ -18,9 +18,9 @@ We reduced not only input shape, but also model architectures because of complex
 
 ### Model Merging Method
 There are so many Model merging Method.
- 1. permutation without activation matching
- 2. activation matching considering permutation symmetry 
- 3. REPAIR
+ 1. permutation without activation matching : Only Consider high correlation of latent vectors
+ 2. activation matching considering permutation symmetry : Consider activation functions also.
+ 3. REPAIR : Repair Batch normalization
 
 We applied all above of the Model Merging Methods.
 
@@ -38,20 +38,11 @@ Model1 Reconstruction & Model2 Reconstruction
 Base on these models, we can adapt above 3 model merging techniques.
 Check codes if you want to know much deeper [./code/Model_merge.ipynb].
 
-### Permutation without activation matching
-Permutation without activation matching only consider correlation of latent vectors.
+### Adapt Model merging.
+We adapted 1. Permutation without activation matching, 2. Activation Matching considering permutation symmetry, 3. REPAIR
+(You might know that REPAIR can be only adapted into Neural Net with Batch normalization, so we added batch normalization for REPAIR)
 <p align="center">
  <img src = "./image/merge_2.gif">
-</p>
-
-### Permutation with Activation matching
-Permutation with Activation matching consider the activation functions also.
-<p align="center">
  <img src = "./image/merge_1.gif">
-</p>
-
-### REPAIR
-REPAIR makes batch-normalization correct.
-<p align="center">
  <img src = "./image/merge_3.gif">
 </p>
