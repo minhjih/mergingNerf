@@ -51,7 +51,7 @@ We adapted 1. Permutation without activation matching, 2. Activation Matching co
 ## Results
 Following to the above experimental results, we can know several things.
 
-1. Activation matching considering Permuytation Symmetry makes best results.
+1. Activation matching considering Permutation Symmetry makes best results.
 2. REPAIR have the most clear color of the results.
 
 So, we can make a results as model merging methods interference the color informations while matching parameters. But, batch normalization is not suitable for Neural Field models. 
